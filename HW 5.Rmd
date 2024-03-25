@@ -1,0 +1,39 @@
+---
+title: "HW 5"
+author: "Student Name"
+date: "12/29/2023"
+output: 
+  pdf_document
+---
+
+### This homework is meant to give you practice in creating and defending a position with both statistical and philosophical evidence.  We have now extensively talked about the COMPAS ^[https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis] data set, the flaws in applying it but also its potential upside if its shortcomings can be overlooked.  We have also spent time in class verbally assessing positions both for an against applying this data set in real life.  In no more than two pages ^[knit to a pdf to ensure page count] take the persona of a statistical consultant advising a judge as to whether they should include the results of the COMPAS algorithm in their decision making process for granting parole.  First clearly articulate your position (whether the algorithm should be used or not) and then defend said position using both statistical and philosophical evidence.  Your paper will be grade both on the merits of its persuasive appeal but also the applicability of the statistical and philosohpical evidence cited.  
+
+
+Your Honor,
+
+
+As an experienced statistical consultant, I strongly advise against the inclusion of the COMPAS algorithm in your parole decision-making process. My recommendation stems from critical concerns regarding arbitrary discrimination, statistical fairness, and the potential for perpetuating systemic biases inherent in the COMPAS algorithm’s design and application. 
+
+
+The crucial flaw in the COMPAS algorithm is its disproportionately high false positive rate among black individuals compared to white individuals. In simpler terms, this means that black individuals were more likely to be incorrectly classified as high risk for recidivism than white individuals. This discrepancy exacerbates existing inequalities and directly goes against the principle of justice as fairness, which was ardently supported by philosopher John Rawls. Rawls advocated for the difference principle, which emphasizes that when differences exist in society, resources should be allocated to protect the most disadvantaged. In the context of the American criminal justice system, which is marked by the systemic racism and cycles of poverty faced by black individuals, this algorithm’s disparate impact perpetuates injustice and prejudice against black individuals. Rather than protecting this class, this algorithm could contribute to a slippery slope situation. A destructive feedback loop is created when those who have been unjustly labeled as being at a high risk of reoffending foster a distrust and disdain for the legal system. This algorithm violates justice as fairness, and I want to emphasize here that black individuals are bearing the algorithm’s errors more heavily than others.
+
+
+While COMPAS does not include race when predicting recidivism, it does incorporate zip code, which is a proxy variable that can reflect racial demographics. This means that different zip codes have populations with different proportions of each race, so race, although indirectly, is still involved in the algorithm’s prediction process. Using race, or any proxy for race, even if it is a good predictor of recidivism, is problematic because it perpetuates historical injustices, allowing systemic biases to influence judicial decisions that have heavy impacts on individual lives.
+
+
+Another important metric to note here is that the COMPAS algorithm has a reported accuracy rate of only 65%. This is only a minor improvement over random chance and vastly falls short of the reliability expected in the justice system. Furthermore, the algorithm operates as a “black box”, which means that the decision-making process of the algorithm is not available publicly. Only Northpointe, the company that is selling this algorithm for profit, knows how the algorithm works. This lack of transparency, alongside the modest accuracy rate, makes the use of this tool unjustifiable in a judicial setting. As a judge, your extensive experience and nuanced understanding of legal complexities means that your predictive capability likely surpasses the algorithm’s predictive abilities. It’s important to rely on your academic training and human touch over opaque and unaccountable computer algorithms. 
+
+
+In the warning that comes with COMPAS, it’s mentioned that there is a potential for complexity that might lead to overfitting. This is a serious issue, and I’ll explain it simply in case you aren’t aware of what overfitting might entail. In a statistical sense, overfitting means that a model (COMPAS in this case) is too closely tailored to the training data, which makes it ineffective at predicting new scenarios. To put it simpler, imagine a law student who studies for their exams by memorizing the textbook word for word instead of understanding the concepts behind the words. When it’s time for the exam, the student is unable to answer any questions unless they are worded exactly like the textbook. The student is unable to apply general concepts to new scenarios, since they only memorized the words in the textbook. Now, we’ll go back and apply this concept to the COMPAS algorithm, which has the potential for overfitting. This means that the algorithm is unable to generalize well, and that it will poorly predict new parole cases that are entered into the algorithm. Each parole case presents unique circumstances and challenges that the COMPAS algorithm is unable to consider well, making it unsuitable as a judicial tool.
+
+
+Virtue ethics is a philosophical school of thought that will help emphasize the unethical nature that surrounds the use of COMPAS as a tool for deciding parole. Virtue ethics says that actions are only correct insofar that they are in accordance with virtues, which are qualities conducive to living a good life. By avoiding the use of COMPAS, you would be upholding the virtues of integrity and fairness by steering clear of an algorithm that has been shown to unfairly discriminate against black individuals. You would also be upholding the virtue of courage by standing up against the use of this algorithm, even when it has been legally upheld in the Wisconsin supreme court despite all of the issues that we’ve discussed. Upholding these virtues will help maintain a trustworthy and reliable justice system.
+
+
+It’s important to mention that people might carry subconscious biases that reflect in decision making without their knowledge, and that computational algorithms like COMPAS can help mitigate these subconscious biases. The COMPAS algorithm also offers potential benefits in decision-making efficiency and is right more times than it is wrong. However, the algorithm as it currently stands arbitrarily discriminates against black individuals. The disproportionately high false positive rate will prevent black individuals from being granted parole more often than white individuals in similar situations, making this algorithm unacceptable to be used in our justice system. These concerns vastly outweigh any potential benefits, and it’s important for our justice system to prioritize fair and equitable treatment above all else. I do not recommend using COMPAS even just as a supplementary tool since humans are easily swayed -- even a subconscious lean towards the algorithm’s results would perpetuate inequality. Thank you for your consideration and your efforts in seeking out help when deciding whether or not to use COMPAS in your decision making process. 
+
+
+Best,
+
+
+Grace Sun
